@@ -1,0 +1,223 @@
+# -original
+=======
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_o_rec_na_o_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/original.model" "{replace_with_your_directory}/t_o_rec_na_o_m_fim_s1_code" "{replace_with_your_directory}/res/t_o_rec_na_o_m_fim_s1_data" \
+    "apply_none" "" > {replace_with_your_directory}/logs/t_o_rec_na_o_m_fim_s1.log &
+
+# scenario U
+=======
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_o_rec_u_rG4.0_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/original.model" "{replace_with_your_directory}/t_o_rec_u_rG4.0_m_fim_s1_code" "{replace_with_your_directory}/res/t_o_rec_u_rG4.0_m_fim_s1_data" \
+    "apply_hist" "{replace_with_your_directory}/files/replaced_files/replaced_observation_hp_news/RG4.0.tsv" > {replace_with_your_directory}/logs/t_o_rec_u_rG4.0_m_fim_s1.log &
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_o_rec_u_rG3.5_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/original.model" "{replace_with_your_directory}/t_o_rec_u_rG3.5_m_fim_s1_code" "{replace_with_your_directory}/res/t_o_rec_u_rG3.5_m_fim_s1_data" \
+    "apply_hist" "{replace_with_your_directory}/files/replaced_files/replaced_observation_hp_news/RG3.5.tsv" > {replace_with_your_directory}/logs/t_o_rec_u_rG3.5_m_fim_s1.log &
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_o_rec_u_rADJ_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/original.model" "{replace_with_your_directory}/t_o_rec_u_rADJ_m_fim_s1_code" "{replace_with_your_directory}/res/t_o_rec_u_rADJ_m_fim_s1_data" \
+    "apply_hist" "{replace_with_your_directory}/files/replaced_files/replaced_observation_hp_news/RADJ_news.tsv" > {replace_with_your_directory}/logs/t_o_rec_u_rADJ_m_fim_s1.log &
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_o_rec_u_rADV_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/original.model" "{replace_with_your_directory}/t_o_rec_u_rADV_m_fim_s1_code" "{replace_with_your_directory}/res/t_o_rec_u_rADV_m_fim_s1_data" \
+    "apply_hist" "{replace_with_your_directory}/files/replaced_files/replaced_observation_hp_news/RADV_news.tsv" > {replace_with_your_directory}/logs/t_o_rec_u_rADV_m_fim_s1.log &
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_o_rec_u_rALL_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/original.model" "{replace_with_your_directory}/t_o_rec_u_rALL_m_fim_s1_code" "{replace_with_your_directory}/res/t_o_rec_u_rALL_m_fim_s1_data" \
+    "apply_hist" "{replace_with_your_directory}/files/replaced_files/replaced_observation_hp_news/RALL_news.tsv" > {replace_with_your_directory}/logs/t_o_rec_u_rALL_m_fim_s1.log &
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_o_rec_u_rVERB_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/original.model" "{replace_with_your_directory}/t_o_rec_u_rVERB_m_fim_s1_code" "{replace_with_your_directory}/res/t_o_rec_u_rVERB_m_fim_s1_data" \
+    "apply_hist" "{replace_with_your_directory}/files/replaced_files/replaced_observation_hp_news/RVERB_news.tsv" > {replace_with_your_directory}/logs/t_o_rec_u_rVERB_m_fim_s1.log &
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_o_rec_u_rNOUN_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/original.model" "{replace_with_your_directory}/t_o_rec_u_rNOUN_m_fim_s1_code" "{replace_with_your_directory}/res/t_o_rec_u_rNOUN_m_fim_s1_data" \
+    "apply_hist" "{replace_with_your_directory}/files/replaced_files/replaced_observation_hp_news/RNOUN_news.tsv" > {replace_with_your_directory}/logs/t_o_rec_u_rNOUN_m_fim_s1.log &
+
+# scenario C
+========
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_o_rec_c_rG4.0_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/original.model" "{replace_with_your_directory}/t_o_rec_c_rG4.0_m_fim_s1_code" "{replace_with_your_directory}/res/t_o_rec_c_rG4.0_m_fim_s1_data" \
+    "apply_candidate" "{replace_with_your_directory}/files/replaced_files/replaced_observation_hp_news/RG4.0.tsv" > {replace_with_your_directory}/logs/t_o_rec_c_rG4.0_m_fim_s1.log &
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_o_rec_c_rG3.5_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/original.model" "{replace_with_your_directory}/t_o_rec_c_rG3.5_m_fim_s1_code" "{replace_with_your_directory}/res/t_o_rec_c_rG3.5_m_fim_s1_data" \
+    "apply_candidate" "{replace_with_your_directory}/files/replaced_files/replaced_observation_hp_news/RG3.5.tsv" > {replace_with_your_directory}/logs/t_o_rec_c_rG3.5_m_fim_s1.log &
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_o_rec_c_rADJ_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/original.model" "{replace_with_your_directory}/t_o_rec_c_rADJ_m_fim_s1_code" "{replace_with_your_directory}/res/t_o_rec_c_rADJ_m_fim_s1_data" \
+    "apply_candidate" "{replace_with_your_directory}/files/replaced_files/replaced_observation_hp_news/RADJ_news.tsv" > {replace_with_your_directory}/logs/t_o_rec_c_rADJ_m_fim_s1.log &
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_o_rec_c_rADV_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/original.model" "{replace_with_your_directory}/t_o_rec_c_rADV_m_fim_s1_code" "{replace_with_your_directory}/res/t_o_rec_c_rADV_m_fim_s1_data" \
+    "apply_candidate" "{replace_with_your_directory}/files/replaced_files/replaced_observation_hp_news/RADV_news.tsv" > {replace_with_your_directory}/logs/t_o_rec_c_rADV_m_fim_s1.log &
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_o_rec_c_rALL_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/original.model" "{replace_with_your_directory}/t_o_rec_c_rALL_m_fim_s1_code" "{replace_with_your_directory}/res/t_o_rec_c_rALL_m_fim_s1_data" \
+    "apply_candidate" "{replace_with_your_directory}/files/replaced_files/replaced_observation_hp_news/RALL_news.tsv" > {replace_with_your_directory}/logs/t_o_rec_c_rALL_m_fim_s1.log &
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_o_rec_c_rVERB_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/original.model" "{replace_with_your_directory}/t_o_rec_c_rVERB_m_fim_s1_code" "{replace_with_your_directory}/res/t_o_rec_c_rVERB_m_fim_s1_data" \
+    "apply_candidate" "{replace_with_your_directory}/files/replaced_files/replaced_observation_hp_news/RVERB_news.tsv" > {replace_with_your_directory}/logs/t_o_rec_c_rVERB_m_fim_s1.log &
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_o_rec_c_rNOUN_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/original.model" "{replace_with_your_directory}/t_o_rec_c_rNOUN_m_fim_s1_code" "{replace_with_your_directory}/res/t_o_rec_c_rNOUN_m_fim_s1_data" \
+    "apply_candidate" "{replace_with_your_directory}/files/replaced_files/replaced_observation_hp_news/RNOUN_news.tsv" > {replace_with_your_directory}/logs/t_o_rec_c_rNOUN_m_fim_s1.log &
+
+# scenario UC
+=======
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_o_rec_uc_rG4.0_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/original.model" "{replace_with_your_directory}/t_o_rec_uc_rG4.0_m_fim_s1_code" "{replace_with_your_directory}/res/t_o_rec_uc_rG4.0_m_fim_s1_data" \
+    "apply_both" "{replace_with_your_directory}/files/replaced_files/replaced_observation_hp_news/RG4.0.tsv" > {replace_with_your_directory}/logs/t_o_rec_uc_rG4.0_m_fim_s1.log &
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_o_rec_uc_rG3.5_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/original.model" "{replace_with_your_directory}/t_o_rec_uc_rG3.5_m_fim_s1_code" "{replace_with_your_directory}/res/t_o_rec_uc_rG3.5_m_fim_s1_data" \
+    "apply_both" "{replace_with_your_directory}/files/replaced_files/replaced_observation_hp_news/RG3.5.tsv" > {replace_with_your_directory}/logs/t_o_rec_uc_rG3.5_m_fim_s1.log &
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_o_rec_uc_rADJ_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/original.model" "{replace_with_your_directory}/t_o_rec_uc_rADJ_m_fim_s1_code" "{replace_with_your_directory}/res/t_o_rec_uc_rADJ_m_fim_s1_data" \
+    "apply_both" "{replace_with_your_directory}/files/replaced_files/replaced_observation_hp_news/RADJ_news.tsv" > {replace_with_your_directory}/logs/t_o_rec_uc_rADJ_m_fim_s1.log &
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_o_rec_uc_rADV_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/original.model" "{replace_with_your_directory}/t_o_rec_uc_rADV_m_fim_s1_code" "{replace_with_your_directory}/res/t_o_rec_uc_rADV_m_fim_s1_data" \
+    "apply_both" "{replace_with_your_directory}/files/replaced_files/replaced_observation_hp_news/RADV_news.tsv" > {replace_with_your_directory}/logs/t_o_rec_uc_rADV_m_fim_s1.log &
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_o_rec_uc_rALL_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/original.model" "{replace_with_your_directory}/t_o_rec_uc_rALL_m_fim_s1_code" "{replace_with_your_directory}/res/t_o_rec_uc_rALL_m_fim_s1_data" \
+    "apply_both" "{replace_with_your_directory}/files/replaced_files/replaced_observation_hp_news/RALL_news.tsv" > {replace_with_your_directory}/logs/t_o_rec_uc_rALL_m_fim_s1.log &
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_o_rec_uc_rVERB_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/original.model" "{replace_with_your_directory}/t_o_rec_uc_rVERB_m_fim_s1_code" "{replace_with_your_directory}/res/t_o_rec_uc_rVERB_m_fim_s1_data" \
+    "apply_both" "{replace_with_your_directory}/files/replaced_files/replaced_observation_hp_news/RVERB_news.tsv" > {replace_with_your_directory}/logs/t_o_rec_uc_rVERB_m_fim_s1.log &
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_o_rec_uc_rNOUN_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/original.model" "{replace_with_your_directory}/t_o_rec_uc_rNOUN_m_fim_s1_code" "{replace_with_your_directory}/res/t_o_rec_uc_rNOUN_m_fim_s1_data" \
+    "apply_both" "{replace_with_your_directory}/files/replaced_files/replaced_observation_hp_news/RNOUN_news.tsv" > {replace_with_your_directory}/logs/t_o_rec_uc_rNOUN_m_fim_s1.log &
+
+# scenario A
+=========
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_rG4.0_rec_na_o_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/fim_rg4.0.model" "{replace_with_your_directory}/t_rG4.0_rec_na_o_m_fim_s1_code" "{replace_with_your_directory}/res/t_rG4.0_rec_na_o_m_fim_s1_data" \
+    "apply_none" "" > {replace_with_your_directory}/logs/t_rG4.0_rec_na_o_m_fim_s1.log &
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_rG3.5_rec_na_o_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/fim_rg3.5.model" "{replace_with_your_directory}/t_rG3.5_rec_na_o_m_fim_s1_code" "{replace_with_your_directory}/res/t_rG3.5_rec_na_o_m_fim_s1_data" \
+    "apply_none" "" > {replace_with_your_directory}/logs/t_rG3.5_rec_na_o_m_fim_s1.log &
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_rADV_rec_na_o_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/fim_radv.model" "{replace_with_your_directory}/t_rADV_rec_na_o_m_fim_s1_code" "{replace_with_your_directory}/res/t_rADV_rec_na_o_m_fim_s1_data" \
+    "apply_none" "" > {replace_with_your_directory}/logs/t_rADV_rec_na_o_m_fim_s1.log &
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_rADJ_rec_na_o_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/fim_radj.model" "{replace_with_your_directory}/t_rADJ_rec_na_o_m_fim_s1_code" "{replace_with_your_directory}/res/t_rADJ_rec_na_o_m_fim_s1_data" \
+    "apply_none" "" > {replace_with_your_directory}/logs/t_rADJ_rec_na_o_m_fim_s1.log &
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_rALL_rec_na_o_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/fim_rall.model" "{replace_with_your_directory}/t_rALL_rec_na_o_m_fim_s1_code" "{replace_with_your_directory}/res/t_rALL_rec_na_o_m_fim_s1_data" \
+    "apply_none" "" > {replace_with_your_directory}/logs/t_rALL_rec_na_o_m_fim_s1.log &
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_rVERB_rec_na_o_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/fim_rverb.model" "{replace_with_your_directory}/t_rVERB_rec_na_o_m_fim_s1_code" "{replace_with_your_directory}/res/t_rVERB_rec_na_o_m_fim_s1_data" \
+    "apply_none" "" > {replace_with_your_directory}/logs/t_rVERB_rec_na_o_m_fim_s1.log &
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_rNOUN_rec_na_o_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/fim_rnoun.model" "{replace_with_your_directory}/t_rNOUN_rec_na_o_m_fim_s1_code" "{replace_with_your_directory}/res/t_rNOUN_rec_na_o_m_fim_s1_data" \
+    "apply_none" "" > {replace_with_your_directory}/logs/t_rNOUN_rec_na_o_m_fim_s1.log &
+
+# scenario CA
+=======
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_rG4.0_rec_c_rG4.0_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/fim_rg4.0.model" "{replace_with_your_directory}/t_rG4.0_rec_c_rG4.0_m_fim_s1_code" "{replace_with_your_directory}/res/t_rG4.0_rec_c_rG4.0_m_fim_s1_data" \
+    "apply_candidate" "{replace_with_your_directory}/files/replaced_files/replaced_observation_hp_news/RG4.0.tsv" > {replace_with_your_directory}/logs/t_rG4.0_rec_c_rG4.0_m_fim_s1.log &
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_rG3.5_rec_c_rG3.5_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/fim_rg3.5.model" "{replace_with_your_directory}/t_rG3.5_rec_c_rG3.5_m_fim_s1_code" "{replace_with_your_directory}/res/t_rG3.5_rec_c_rG3.5_m_fim_s1_data" \
+    "apply_candidate" "{replace_with_your_directory}/files/replaced_files/replaced_observation_hp_news/RG3.5.tsv" > {replace_with_your_directory}/logs/t_rG3.5_rec_c_rG3.5_m_fim_s1.log &
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_rADJ_rec_c_rADJ_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/fim_radj.model" "{replace_with_your_directory}/t_rADJ_rec_c_rADJ_m_fim_s1_code" "{replace_with_your_directory}/res/t_rADJ_rec_c_rADJ_m_fim_s1_data" \
+    "apply_candidate" "{replace_with_your_directory}/files/replaced_files/replaced_observation_hp_news/RADJ_news.tsv" > {replace_with_your_directory}/logs/t_rADJ_rec_c_rADJ_m_fim_s1.log &
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_rADV_rec_c_rADV_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/fim_radv.model" "{replace_with_your_directory}/t_rADV_rec_c_rADV_m_fim_s1_code" "{replace_with_your_directory}/res/t_rADV_rec_c_rADV_m_fim_s1_data" \
+    "apply_candidate" "{replace_with_your_directory}/files/replaced_files/replaced_observation_hp_news/RADV_news.tsv" > {replace_with_your_directory}/logs/t_rADV_rec_c_rADV_m_fim_s1.log &
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_rALL_rec_c_rALL_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/fim_rall.model" "{replace_with_your_directory}/t_rALL_rec_c_rALL_m_fim_s1_code" "{replace_with_your_directory}/res/t_rALL_rec_c_rALL_m_fim_s1_data" \
+    "apply_candidate" "{replace_with_your_directory}/files/replaced_files/replaced_observation_hp_news/RALL_news.tsv" > {replace_with_your_directory}/logs/t_rALL_rec_c_rALL_m_fim_s1.log &
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_rVERB_rec_c_rVERB_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/fim_rverb.model" "{replace_with_your_directory}/t_rVERB_rec_c_rVERB_m_fim_s1_code" "{replace_with_your_directory}/res/t_rVERB_rec_c_rVERB_m_fim_s1_data" \
+    "apply_candidate" "{replace_with_your_directory}/files/replaced_files/replaced_observation_hp_news/RVERB_news.tsv" > {replace_with_your_directory}/logs/t_rVERB_rec_c_rVERB_m_fim_s1.log &
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_rNOUN_rec_c_rNOUN_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/fim_rnoun.model" "{replace_with_your_directory}/t_rNOUN_rec_c_rNOUN_m_fim_s1_code" "{replace_with_your_directory}/res/t_rNOUN_rec_c_rNOUN_m_fim_s1_data" \
+    "apply_candidate" "{replace_with_your_directory}/files/replaced_files/replaced_observation_hp_news/RNOUN_news.tsv" > {replace_with_your_directory}/logs/t_rNOUN_rec_c_rNOUN_m_fim_s1.log &
+
+# scenario UA
+======
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_rG4.0_rec_u_rG4.0_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/fim_rg4.0.model" "{replace_with_your_directory}/t_rG4.0_rec_u_rG4.0_m_fim_s1_code" "{replace_with_your_directory}/res/t_rG4.0_rec_u_rG4.0_m_fim_s1_data" \
+    "apply_hist" "{replace_with_your_directory}/files/replaced_files/replaced_observation_hp_news/RG4.0.tsv" > {replace_with_your_directory}/logs/t_rG4.0_rec_u_rG4.0_m_fim_s1.log &
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_rG3.5_rec_u_rG3.5_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/fim_rg3.5.model" "{replace_with_your_directory}/t_rG3.5_rec_u_rG3.5_m_fim_s1_code" "{replace_with_your_directory}/res/t_rG3.5_rec_u_rG3.5_m_fim_s1_data" \
+    "apply_hist" "{replace_with_your_directory}/files/replaced_files/replaced_observation_hp_news/RG3.5.tsv" > {replace_with_your_directory}/logs/t_rG3.5_rec_u_rG3.5_m_fim_s1.log &
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_rADJ_rec_u_rADJ_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/fim_radj.model" "{replace_with_your_directory}/t_rADJ_rec_u_rADJ_m_fim_s1_code" "{replace_with_your_directory}/res/t_rADJ_rec_u_rADJ_m_fim_s1_data" \
+    "apply_hist" "{replace_with_your_directory}/files/replaced_files/replaced_observation_hp_news/RADJ_news.tsv" > {replace_with_your_directory}/logs/t_rADJ_rec_u_rADJ_m_fim_s1.log &
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_rADV_rec_u_rADV_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/fim_radv.model" "{replace_with_your_directory}/t_rADV_rec_u_rADV_m_fim_s1_code" "{replace_with_your_directory}/res/t_rADV_rec_u_rADV_m_fim_s1_data" \
+    "apply_hist" "{replace_with_your_directory}/files/replaced_files/replaced_observation_hp_news/RADV_news.tsv" > {replace_with_your_directory}/logs/t_rADV_rec_u_rADV_m_fim_s1.log &
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_rALL_rec_u_rALL_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/fim_rall.model" "{replace_with_your_directory}/t_rALL_rec_u_rALL_m_fim_s1_code" "{replace_with_your_directory}/res/t_rALL_rec_u_rALL_m_fim_s1_data" \
+    "apply_hist" "{replace_with_your_directory}/files/replaced_files/replaced_observation_hp_news/RALL_news.tsv" > {replace_with_your_directory}/logs/t_rALL_rec_u_rALL_m_fim_s1.log &
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_rVERB_rec_u_rVERB_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/fim_rverb.model" "{replace_with_your_directory}/t_rVERB_rec_u_rVERB_m_fim_s1_code" "{replace_with_your_directory}/res/t_rVERB_rec_u_rVERB_m_fim_s1_data" \
+    "apply_hist" "{replace_with_your_directory}/files/replaced_files/replaced_observation_hp_news/RVERB_news.tsv" > {replace_with_your_directory}/logs/t_rVERB_rec_u_rVERB_m_fim_s1.log &
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_rNOUN_rec_u_rNOUN_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/fim_rnoun.model" "{replace_with_your_directory}/t_rNOUN_rec_u_rNOUN_m_fim_s1_code" "{replace_with_your_directory}/res/t_rNOUN_rec_u_rNOUN_m_fim_s1_data" \
+    "apply_hist" "{replace_with_your_directory}/files/replaced_files/replaced_observation_hp_news/RNOUN_news.tsv" > {replace_with_your_directory}/logs/t_rNOUN_rec_u_rNOUN_m_fim_s1.log &
+
+# scenario UCA
+========
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_rG4.0_rec_uc_rG4.0_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/fim_rg4.0.model" "{replace_with_your_directory}/t_rG4.0_rec_uc_rG4.0_m_fim_s1_code" "{replace_with_your_directory}/res/t_rG4.0_rec_uc_rG4.0_m_fim_s1_data" \
+    "apply_both" "{replace_with_your_directory}/files/replaced_files/replaced_observation_hp_news/RG4.0.tsv" > {replace_with_your_directory}/logs/t_rG4.0_rec_uc_rG4.0_m_fim_s1.log &
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_rG3.5_rec_uc_rG3.5_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/fim_rg3.5.model" "{replace_with_your_directory}/t_rG3.5_rec_uc_rG3.5_m_fim_s1_code" "{replace_with_your_directory}/res/t_rG3.5_rec_uc_rG3.5_m_fim_s1_data" \
+    "apply_both" "{replace_with_your_directory}/files/replaced_files/replaced_observation_hp_news/RG3.5.tsv" > {replace_with_your_directory}/logs/t_rG3.5_rec_uc_rG3.5_m_fim_s1.log &
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_rADJ_rec_uc_rADJ_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/fim_radj.model" "{replace_with_your_directory}/t_rADJ_rec_uc_rADJ_m_fim_s1_code" "{replace_with_your_directory}/res/t_rADJ_rec_uc_rADJ_m_fim_s1_data" \
+    "apply_both" "{replace_with_your_directory}/files/replaced_files/replaced_observation_hp_news/RADJ_news.tsv" > {replace_with_your_directory}/logs/t_rADJ_rec_uc_rADJ_m_fim_s1.log &
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_rADV_rec_uc_rADV_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/fim_radv.model" "{replace_with_your_directory}/t_rADV_rec_uc_rADV_m_fim_s1_code" "{replace_with_your_directory}/res/t_rADV_rec_uc_rADV_m_fim_s1_data" \
+    "apply_both" "{replace_with_your_directory}/files/replaced_files/replaced_observation_hp_news/RADV_news.tsv" > {replace_with_your_directory}/logs/t_rADV_rec_uc_rADV_m_fim_s1.log &
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_rALL_rec_uc_rALL_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/fim_rall.model" "{replace_with_your_directory}/t_rALL_rec_uc_rALL_m_fim_s1_code" "{replace_with_your_directory}/res/t_rALL_rec_uc_rALL_m_fim_s1_data" \
+    "apply_both" "{replace_with_your_directory}/files/replaced_files/replaced_observation_hp_news/RALL_news.tsv" > {replace_with_your_directory}/logs/t_rALL_rec_uc_rALL_m_fim_s1.log &
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_rVERB_rec_uc_rVERB_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/fim_rverb.model" "{replace_with_your_directory}/t_rVERB_rec_uc_rVERB_m_fim_s1_code" "{replace_with_your_directory}/res/t_rVERB_rec_uc_rVERB_m_fim_s1_data" \
+    "apply_both" "{replace_with_your_directory}/files/replaced_files/replaced_observation_hp_news/RVERB_news.tsv" > {replace_with_your_directory}/logs/t_rVERB_rec_uc_rVERB_m_fim_s1.log &
+
+nohup bash rec_fim.sh "{replace_with_your_directory}/res/t_rNOUN_rec_uc_rNOUN_m_fim_s1" "ul" "dynamic" {replace_with_your_device_no} 50 10 1 "{replace_with_your_directory}/files/step65.txt" \
+    "{replace_with_your_directory}/files/fim/fim_rnoun.model" "{replace_with_your_directory}/t_rNOUN_rec_uc_rNOUN_m_fim_s1_code" "{replace_with_your_directory}/res/t_rNOUN_rec_uc_rNOUN_m_fim_s1_data" \
+    "apply_both" "{replace_with_your_directory}/files/replaced_files/replaced_observation_hp_news/RNOUN_news.tsv" > {replace_with_your_directory}/logs/t_rNOUN_rec_uc_rNOUN_m_fim_s1.log &
